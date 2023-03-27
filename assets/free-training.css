@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #daa06a79;
+}
+/* Navbar */
+.navbar {
+    width: 100%;
+    background-color: #BF3A17;
+    z-index: 5;
+}
+
+.logo {
+    filter: invert(1);
+}
+.container-fluid img {
+    height: 50px;
+}
+.buttons {
+    background-color: #DAA16A;
+    border-radius: 10px;
+    border: none;
+    color: rgb(245, 237, 237);
+}
+.buttons:hover {
+    background-color: #762E19;
+}
+/* Youtube */
+.ratio-16x9 {
+    @include media-breakpoint-up(md) {
+      --bs-aspect-ratio: 50%; // 2x1
+    }
+}
+/* Footer */
+footer {
+    background-color: #BF3A17;
+}
+.sign-up-button{
+    background-color: #DAA16A;
+    border-radius: 10px;
+    border: none;
+    color: rgb(245, 237, 237);
+}

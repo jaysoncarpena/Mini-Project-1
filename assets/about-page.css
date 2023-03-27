@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #daa06a79;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #BF3A17;
+    z-index: 5;
+}
+.logo {
+    filter: invert(1);
+}
+.container-fluid img {
+    height: 50px;
+}
+.buttons {
+    background-color: #DAA16A;
+    border-radius: 10px;
+    border: none;
+    color: rgb(245, 237, 237);
+}
+.buttons:hover {
+    background-color: #762E19;
+}
+/* About */
+.light-bg {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: none;
+}
+.card-img {
+    width: 100%;
+    height: 100%;
+}
+/* Footer */
+footer {
+    background-color: #BF3A17;
+}
+.sign-up-button{
+    background-color: #DAA16A;
+    border-radius: 10px;
+    border: none;
+    color: rgb(245, 237, 237);
+}
+@media (min-width: 200px) and ( max-width: 700px)   {
+    .card-body {
+        position: relative;
+        width: 350px;
+       
+    }
+  
+
+}
